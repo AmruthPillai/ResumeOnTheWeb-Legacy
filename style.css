@@ -1,3 +1,13 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.sub-heading {
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 700;
+}

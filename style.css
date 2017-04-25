@@ -1,13 +1,31 @@
 body {
   font-family: 'Lato', sans-serif;
+  color: #111;
 }
 
 .img-circle {
   border-radius: 50%;
 }
 
-.sub-heading {
-  font-size: .8em;
-  text-transform: uppercase;
-  font-weight: 700;
+#contact-details {
+  margin-top: 3em;
 }
+
+  .sub-heading {
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #aaa;
+  }
+
+  .content-below-heading {
+    margin-left: -.8em;
+  }
+
+  .content-side {
+    padding-left: 1em;
+  }
+
+  .address-line-height-fix {
+    line-height: 1.6em;
+  }

@@ -27,6 +27,10 @@ body {
     color: #aaa;
   }
 
+  .darker-text {
+    color: #444;
+  }
+
   .content-below-heading {
     margin-left: -.8em;
   }
@@ -43,7 +47,21 @@ body {
     color: #97644e;
   }
 
-#personal-statement p {
-  text-align: justify;
-  text-align-last: justify;
+.resume-section {
+  padding-bottom: 20px;
+}
+
+  #personal-statement p {
+    text-align: justify;
+    text-align-last: justify;
+  }
+
+.skill {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.skill p:nth-child(2) {
+  margin-top: -1.4em;
+  font-size: .8em;
 }

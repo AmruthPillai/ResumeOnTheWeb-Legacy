@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #111;
 }
 
@@ -15,6 +15,10 @@ body {
   border-width: 0 60px 60px 0;
   border-color: transparent #c9b0a4 transparent transparent;
 }
+
+  .shift-left {
+    margin-left: -1em;
+  }
 
 #contact-details {
   margin-top: 3em;
@@ -73,3 +77,7 @@ body {
   .non-tech-skills {
     margin-top: 1em;
   }
+
+.language-circle>div {
+  margin-right: 25px;
+}

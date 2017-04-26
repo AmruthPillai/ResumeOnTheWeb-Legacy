@@ -3,6 +3,14 @@ body {
   color: #111;
 }
 
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -81,3 +89,38 @@ body {
 .language-circle>div {
   margin-right: 25px;
 }
+
+#hobbies-and-interests>div>div {
+  float: left;
+  margin-right: 20px;
+}
+
+  .hobby-row {
+    margin-bottom: 10px;
+  }
+
+    .hobby-interest {
+      border: 1px solid #97644e;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+    }
+
+    .hobby-interest div {
+      position: relative;
+      float: left;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+      .hobby-interest div img {
+        width: 32px;
+        height: 32px;
+      }
+
+      .hobby-interest div p {
+        margin-top: 5px;
+        font-size: .8em;
+      }

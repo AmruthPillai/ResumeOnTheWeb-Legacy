@@ -57,11 +57,19 @@ body {
   }
 
 .skill {
-  max-height: 50px;
+  max-height: 45px;
   overflow: hidden;
 }
 
-.skill p:nth-child(2) {
-  margin-top: -1.4em;
-  font-size: .8em;
-}
+  .one-line-skill {
+    max-height: 35px;
+  }
+
+  .skill p:nth-child(2) {
+    margin-top: -1.4em;
+    font-size: .8em;
+  }
+
+  .non-tech-skills {
+    margin-top: 1em;
+  }

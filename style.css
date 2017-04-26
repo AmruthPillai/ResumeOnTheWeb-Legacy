@@ -32,13 +32,18 @@ body {
   }
 
   .content-side {
-    padding-left: 1em;
+    padding-left: .5em;
   }
 
   .address-line-height-fix {
-    line-height: 1.6em;
+    line-height: 1.7em;
   }
 
   .icon-side .fa {
     color: #97644e;
   }
+
+#personal-statement p {
+  text-align: justify;
+  text-align-last: justify;
+}

@@ -14,3 +14,13 @@ $(function() {
     text: 'KANNADA'
   });
 });
+
+$(document).ready(function() {
+  window.sr = ScrollReveal({
+    origin: 'top',
+    distance: 0,
+    duration: 500,
+    delay: 100
+  });
+  sr.reveal('.resume-section');
+});
